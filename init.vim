@@ -29,6 +29,8 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'diepm/vim-rest-console'
+
 " Initialize plugin system.
 call plug#end()
 
@@ -68,3 +70,15 @@ let g:airline_right_sep = ' '
 let g:airline_right_alt_sep = '|'
 
 nnoremap <localleader><F12> :Lexplore %:p:h<CR>
+
+let g:vrc_curl_opts = {
+  \ '--connect-timeout' : 10,
+  \ '-b': '~/.vrc.cookies',
+  \ '-c': '~/.vrc.cookies',
+  \ '-L': '',
+  \ '-i': '',
+  \ '--max-time': 60,
+  \ '--ipv4': '',
+  \ '-k': '',
+\}
+
