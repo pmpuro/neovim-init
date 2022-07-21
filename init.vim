@@ -1,3 +1,5 @@
+colorscheme industry
+
 let maplocalleader = ","
 
 call plug#begin(stdpath('data') . '/plugged')
@@ -86,3 +88,4 @@ let g:conjure#log#hud#width = 1.0
 let g:conjure#log#hud#passive_close_delay = 800
 let g:conjure#log#hud#minimum_lifetime_ms = 500
 let g:conjure#log#hud#border = 'none'
+
