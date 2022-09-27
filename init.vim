@@ -9,7 +9,6 @@ Plug 'kyazdani42/nvim-tree.lua'
 
 Plug 'liuchengxu/vim-better-default'
 
-Plug 'easymotion/vim-easymotion'
 Plug 'guns/vim-sexp'
 Plug 'tpope/vim-sexp-mappings-for-regular-people'
 Plug 'Shougo/deoplete.nvim'
