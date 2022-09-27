@@ -40,6 +40,7 @@ Plug 'radenling/vim-dispatch-neovim'
 call plug#end()
 
 let g:vim_better_default_key_mapping = 0
+set nocursorline
 
 " Use fontawesome icons as signs
 let g:gitgutter_sign_added = '+'
