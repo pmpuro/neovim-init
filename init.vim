@@ -1,4 +1,4 @@
-colorscheme industry
+colorscheme peachpuff
 
 let maplocalleader = ","
 
