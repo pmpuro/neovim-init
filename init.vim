@@ -32,6 +32,10 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'diepm/vim-rest-console'
 
+Plug 'tpope/vim-dispatch'
+Plug 'clojure-vim/vim-jack-in'
+Plug 'radenling/vim-dispatch-neovim'
+
 " Initialize plugin system.
 call plug#end()
 
