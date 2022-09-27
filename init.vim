@@ -35,6 +35,8 @@ Plug 'diepm/vim-rest-console'
 " Initialize plugin system.
 call plug#end()
 
+let g:vim_better_default_key_mapping = 0
+
 " Use fontawesome icons as signs
 let g:gitgutter_sign_added = '+'
 let g:gitgutter_sign_modified = '>'
