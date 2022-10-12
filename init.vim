@@ -1,3 +1,4 @@
+set mouse=a
 colorscheme peachpuff
 
 let maplocalleader = ","
