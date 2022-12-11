@@ -1,3 +1,9 @@
+
+" 
+" Also needs to have:
+" brew install ctags
+" brew install the_silver_searcher
+"
 set mouse=a
 colorscheme peachpuff
 
