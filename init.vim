@@ -47,6 +47,7 @@ Plug 'radenling/vim-dispatch-neovim'
 call plug#end()
 
 let g:vim_better_default_key_mapping = 0
+
 set nocursorline
 set number
 set rnu
@@ -57,7 +58,9 @@ let g:gitgutter_sign_modified = '>'
 let g:gitgutter_sign_removed = '-'
 let g:gitgutter_sign_removed_first_line = '^'
 let g:gitgutter_sign_modified_removed = '<'
+
 set updatetime=330
+
 " Jump between hunks
 nmap <LocalLeader>gn <Plug>GitGutterNextHunk  " git next
 nmap <LocalLeader>gp <Plug>GitGutterPrevHunk  " git previous
