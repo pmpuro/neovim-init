@@ -107,3 +107,6 @@ let g:conjure#log#hud#passive_close_delay = 800
 let g:conjure#log#hud#minimum_lifetime_ms = 500
 let g:conjure#log#hud#border = 'none'
 
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+
