@@ -14,7 +14,7 @@ call plug#begin(stdpath('data') . '/plugged')
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'kyazdani42/nvim-tree.lua'
 
-Plug 'liuchengxu/vim-better-default'
+" Plug 'liuchengxu/vim-better-default'
 
 Plug 'guns/vim-sexp'
 Plug 'tpope/vim-sexp-mappings-for-regular-people'
