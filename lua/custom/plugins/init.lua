@@ -8,6 +8,7 @@ return {
     init = function()
       vim.g['conjure#log#hud#width'] = 1.0
       vim.g['conjure#log#hud#border'] = 'none'
+      vim.g['conjure#log#wrap'] = true
     end,
   },
 
