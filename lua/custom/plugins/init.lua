@@ -3,8 +3,13 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  -- Conjure!
-  'Olical/conjure',
+  {
+    'Olical/conjure',
+    init = function()
+      vim.g['conjure#log#hud#width'] = 1.0
+      vim.g['conjure#log#hud#border'] = 'none'
+    end,
+  },
 
   -- Structural editing, optional
   'guns/vim-sexp',
